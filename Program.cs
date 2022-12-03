@@ -15,6 +15,9 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+
             User user1 = new User("Admin", "admin@admin.com", "admin");
             User user2 = new User("Moderator", "mod@mod.com", "moderator");
             User user3 = new User("User One", "one@user.com", "userone");
@@ -22,9 +25,7 @@ namespace WindowsFormsApp1
             User user5 = new User("User Three", "three@user.com", "userthree");
 
             List<User> users = new List<User> { user1, user2, user3, user4, user5, };
-
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
+            
             Application.Run(new loginForm(users));
         }
     }

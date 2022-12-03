@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -21,7 +22,6 @@ namespace WindowsFormsApp1
             this.user = user;
             userNameLabel.Text = user.name;
             uidlabel.Text = "UID: "+user.uid;
-            todoChecked.Items.Clear();
         }
 
         private void addButtonClicked(object sender, EventArgs e)
@@ -29,14 +29,22 @@ namespace WindowsFormsApp1
             if(!String.IsNullOrEmpty(textBoxDescription.Text))
             {
                 //this.todos.Add(textBoxDescription.Text);
-                textBoxDescription.Text = "";
-                todoChecked.Items.Add(textBoxDescription.Text.ToString(), CheckState.Unchecked);
+                //Console.WriteLine(textBoxDescription.Text.ToString());
+                todoChecked.Items.Add(textBoxDescription.Text, CheckState.Unchecked);
+                //this.user.toDoList = todoChecked;
+                int itemsChecked = todoChecked.CheckedItems.Count;
+                progressBarDash.Value = todoChecked.CheckedItems.Count*100 / todoChecked.Items.Count;
             }
         }
 
-        private void todoIndexChecked(object sender, EventArgs e)
+        private void onCheck(object sender, EventArgs e)
         {
+            progressBarDash.Value = todoChecked.CheckedItems.Count * 100 / todoChecked.Items.Count;
+        }
 
+        private void logoutBtnClick(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
