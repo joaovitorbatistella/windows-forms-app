@@ -77,9 +77,8 @@
             this.panel1.Controls.Add(this.dashboardChart);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1685, 838);
+            this.panel1.Size = new System.Drawing.Size(1155, 681);
             this.panel1.TabIndex = 0;
             // 
             // logOutButton
@@ -88,10 +87,9 @@
             this.logOutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logOutButton.Image = ((System.Drawing.Image)(resources.GetObject("logOutButton.Image")));
             this.logOutButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.logOutButton.Location = new System.Drawing.Point(391, 57);
-            this.logOutButton.Margin = new System.Windows.Forms.Padding(4);
+            this.logOutButton.Location = new System.Drawing.Point(293, 46);
             this.logOutButton.Name = "logOutButton";
-            this.logOutButton.Size = new System.Drawing.Size(108, 55);
+            this.logOutButton.Size = new System.Drawing.Size(81, 45);
             this.logOutButton.TabIndex = 6;
             this.logOutButton.Text = "Logout";
             this.logOutButton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -102,10 +100,9 @@
             // 
             this.uidlabel.AutoSize = true;
             this.uidlabel.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uidlabel.Location = new System.Drawing.Point(184, 98);
-            this.uidlabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.uidlabel.Location = new System.Drawing.Point(138, 80);
             this.uidlabel.Name = "uidlabel";
-            this.uidlabel.Size = new System.Drawing.Size(162, 19);
+            this.uidlabel.Size = new System.Drawing.Size(117, 15);
             this.uidlabel.TabIndex = 5;
             this.uidlabel.Text = "UID: 2020003774";
             // 
@@ -113,10 +110,9 @@
             // 
             this.userNameLabel.AutoSize = true;
             this.userNameLabel.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.userNameLabel.Location = new System.Drawing.Point(184, 75);
-            this.userNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.userNameLabel.Location = new System.Drawing.Point(138, 61);
             this.userNameLabel.Name = "userNameLabel";
-            this.userNameLabel.Size = new System.Drawing.Size(173, 19);
+            this.userNameLabel.Size = new System.Drawing.Size(131, 15);
             this.userNameLabel.TabIndex = 4;
             this.userNameLabel.Text = "João Vítor Batistella";
             // 
@@ -124,42 +120,38 @@
             // 
             this.loggedUserLabel.AutoSize = true;
             this.loggedUserLabel.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.loggedUserLabel.Location = new System.Drawing.Point(172, 42);
-            this.loggedUserLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.loggedUserLabel.Location = new System.Drawing.Point(129, 34);
             this.loggedUserLabel.Name = "loggedUserLabel";
-            this.loggedUserLabel.Size = new System.Drawing.Size(142, 23);
+            this.loggedUserLabel.Size = new System.Drawing.Size(112, 18);
             this.loggedUserLabel.TabIndex = 4;
             this.loggedUserLabel.Text = "Logged User";
             // 
             // userIcon
             // 
             this.userIcon.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.user;
-            this.userIcon.Location = new System.Drawing.Point(35, 42);
-            this.userIcon.Margin = new System.Windows.Forms.Padding(4);
+            this.userIcon.Location = new System.Drawing.Point(26, 34);
             this.userIcon.Name = "userIcon";
-            this.userIcon.Size = new System.Drawing.Size(133, 123);
+            this.userIcon.Size = new System.Drawing.Size(100, 100);
             this.userIcon.TabIndex = 4;
             this.userIcon.TabStop = false;
             // 
             // tabToDo
             // 
             this.tabToDo.Controls.Add(this.tabPage1);
-            this.tabToDo.Location = new System.Drawing.Point(567, 15);
-            this.tabToDo.Margin = new System.Windows.Forms.Padding(4);
+            this.tabToDo.Location = new System.Drawing.Point(425, 12);
             this.tabToDo.Name = "tabToDo";
             this.tabToDo.SelectedIndex = 0;
-            this.tabToDo.Size = new System.Drawing.Size(525, 465);
+            this.tabToDo.Size = new System.Drawing.Size(394, 378);
             this.tabToDo.TabIndex = 3;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.tabPage1.Controls.Add(this.panel2);
-            this.tabPage1.Location = new System.Drawing.Point(4, 25);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage1.Size = new System.Drawing.Size(517, 436);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Size = new System.Drawing.Size(386, 352);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "To Do";
             // 
@@ -170,19 +162,17 @@
             this.panel2.Controls.Add(this.descriptionTextBoxLabel);
             this.panel2.Controls.Add(this.textBoxDescription);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(4, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(509, 428);
+            this.panel2.Size = new System.Drawing.Size(380, 346);
             this.panel2.TabIndex = 0;
             // 
             // addToDoBtn
             // 
             this.addToDoBtn.Font = new System.Drawing.Font("Lucida Sans", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addToDoBtn.Location = new System.Drawing.Point(195, 286);
-            this.addToDoBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.addToDoBtn.Location = new System.Drawing.Point(146, 232);
             this.addToDoBtn.Name = "addToDoBtn";
-            this.addToDoBtn.Size = new System.Drawing.Size(132, 49);
+            this.addToDoBtn.Size = new System.Drawing.Size(99, 40);
             this.addToDoBtn.TabIndex = 3;
             this.addToDoBtn.Text = "Add";
             this.addToDoBtn.UseVisualStyleBackColor = true;
@@ -192,10 +182,9 @@
             // 
             this.todoFormTitleLabel.AutoSize = true;
             this.todoFormTitleLabel.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.todoFormTitleLabel.Location = new System.Drawing.Point(145, 30);
-            this.todoFormTitleLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.todoFormTitleLabel.Location = new System.Drawing.Point(109, 24);
             this.todoFormTitleLabel.Name = "todoFormTitleLabel";
-            this.todoFormTitleLabel.Size = new System.Drawing.Size(204, 68);
+            this.todoFormTitleLabel.Size = new System.Drawing.Size(165, 55);
             this.todoFormTitleLabel.TabIndex = 2;
             this.todoFormTitleLabel.Text = "To Do";
             // 
@@ -203,39 +192,35 @@
             // 
             this.descriptionTextBoxLabel.AutoSize = true;
             this.descriptionTextBoxLabel.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.descriptionTextBoxLabel.Location = new System.Drawing.Point(48, 124);
-            this.descriptionTextBoxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.descriptionTextBoxLabel.Location = new System.Drawing.Point(36, 101);
             this.descriptionTextBoxLabel.Name = "descriptionTextBoxLabel";
-            this.descriptionTextBoxLabel.Size = new System.Drawing.Size(107, 19);
+            this.descriptionTextBoxLabel.Size = new System.Drawing.Size(80, 15);
             this.descriptionTextBoxLabel.TabIndex = 1;
             this.descriptionTextBoxLabel.Text = "Description\r\n";
             // 
             // textBoxDescription
             // 
             this.textBoxDescription.AcceptsTab = true;
-            this.textBoxDescription.Location = new System.Drawing.Point(52, 144);
-            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxDescription.Location = new System.Drawing.Point(39, 117);
             this.textBoxDescription.Multiline = true;
             this.textBoxDescription.Name = "textBoxDescription";
-            this.textBoxDescription.Size = new System.Drawing.Size(401, 110);
+            this.textBoxDescription.Size = new System.Drawing.Size(302, 90);
             this.textBoxDescription.TabIndex = 0;
             // 
             // progressBarDash
             // 
-            this.progressBarDash.Location = new System.Drawing.Point(1132, 452);
-            this.progressBarDash.Margin = new System.Windows.Forms.Padding(4);
+            this.progressBarDash.Location = new System.Drawing.Point(849, 367);
             this.progressBarDash.Name = "progressBarDash";
-            this.progressBarDash.Size = new System.Drawing.Size(537, 28);
+            this.progressBarDash.Size = new System.Drawing.Size(403, 23);
             this.progressBarDash.TabIndex = 2;
             // 
             // todoChecked
             // 
             this.todoChecked.ForeColor = System.Drawing.Color.Black;
             this.todoChecked.FormattingEnabled = true;
-            this.todoChecked.Location = new System.Drawing.Point(1132, 14);
-            this.todoChecked.Margin = new System.Windows.Forms.Padding(4);
+            this.todoChecked.Location = new System.Drawing.Point(849, 11);
             this.todoChecked.Name = "todoChecked";
-            this.todoChecked.Size = new System.Drawing.Size(536, 429);
+            this.todoChecked.Size = new System.Drawing.Size(403, 349);
             this.todoChecked.TabIndex = 1;
             this.todoChecked.SelectedIndexChanged += new System.EventHandler(this.onCheck);
             // 
@@ -248,14 +233,13 @@
             this.dashboardChart.ImeMode = System.Windows.Forms.ImeMode.Off;
             legend1.Name = "Legend1";
             this.dashboardChart.Legends.Add(legend1);
-            this.dashboardChart.Location = new System.Drawing.Point(0, 517);
-            this.dashboardChart.Margin = new System.Windows.Forms.Padding(4);
+            this.dashboardChart.Location = new System.Drawing.Point(0, 420);
             this.dashboardChart.Name = "dashboardChart";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.dashboardChart.Series.Add(series1);
-            this.dashboardChart.Size = new System.Drawing.Size(1685, 321);
+            this.dashboardChart.Size = new System.Drawing.Size(1264, 261);
             this.dashboardChart.TabIndex = 0;
             this.dashboardChart.Text = "Dashboard Chart";
             // 
@@ -275,12 +259,11 @@
             // 
             // dashboradForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1685, 838);
+            this.ClientSize = new System.Drawing.Size(1155, 681);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "dashboradForm";
             this.Text = "Dashboard";
             this.panel1.ResumeLayout(false);

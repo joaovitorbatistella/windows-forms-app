@@ -10,3 +10,9 @@ C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\Windows
 C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.dashboradForm.resources
 C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.loginForm.resources
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Forms.registerForm.resources
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\bin\Debug\EntityFramework.dll
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\bin\Debug\EntityFramework.xml
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joaov\source\repos\windows-forms-app\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

@@ -67,6 +67,7 @@
             this.dontHaveAccountLabel.TabIndex = 7;
             this.dontHaveAccountLabel.Text = "Don\'t have an account?\r\nToo bad, it won\'t be today that you\'ll have one!\r\n";
             this.dontHaveAccountLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.dontHaveAccountLabel.Click += new System.EventHandler(this.dontHaveAccountLabel_Click);
             // 
             // passwordLabel
             // 
